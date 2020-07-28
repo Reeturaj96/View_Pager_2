@@ -18,7 +18,7 @@ import java.util.List;
 
 public class TravelLocationAdapter extends RecyclerView.Adapter<TravelLocationAdapter.TravelLocationViewHolder>{
 
-    private List<TravelLocation> travelLocations;
+     List<TravelLocation> travelLocations;
 
     public TravelLocationAdapter(List<TravelLocation> travelLocations) {
         this.travelLocations = travelLocations;

@@ -66,7 +66,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:text="Where Are We"
-        android:textSize="40sp"
+        android:textSize="35sp"
         android:textColor="#212121"
         android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@id/cardprofilePicture"/>
@@ -79,15 +79,15 @@
         android:layout_marginEnd="20dp"
         android:text="Going Today ?"
         android:textColor="#787878"
-        android:textSize="40sp"
+        android:textSize="35sp"
         app:layout_constraintTop_toBottomOf="@id/textWhereAreWe"/>
 
     <androidx.viewpager2.widget.ViewPager2
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:id="@+id/locationViewPager"
-        android:layout_marginTop="40dp"
-        android:layout_marginBottom="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
         android:paddingStart="60dp"
         android:paddingEnd="60dp"
         app:layout_constraintBottom_toTopOf="@id/bottomBar"
